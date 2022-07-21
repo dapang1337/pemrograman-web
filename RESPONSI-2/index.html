@@ -1,0 +1,120 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hax0r Materials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Prata&display=swap" rel="stylesheet">
+    <script src="/js/scripts.js"></script>
+</head>
+<body>
+    <div class="fullContainer">
+        <div class="topBar">
+            <div class="logo">
+                <div class="firstLogo">
+                    Hax0r
+                </div>
+                <div class="secondLogo">
+                    Materials.
+                </div>
+            </div>
+            <ul class="navBar">
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Product</a></li>
+                <li><a href="/">Contact</a></li>
+                <li><a href="/">Bug Report</a></li>
+            </ul>
+        </div>
+        <div class="banner-container">
+            <div class="banner-container-img">
+                <img src="/img/banner-3.jpg" alt="">
+            </div>
+        </div>
+        <div class="product-container">
+            <div class="product-container-head">
+                <h2>LIST PRODUK KAMI</h2>
+            </div>
+            <div class="product-list-container">
+                <table class="product-list-table">
+                    <thead>
+                    <tr>
+                        <th>Gambar Barang</th>
+                        <th>Nama Barang</th>
+                        <th>Deskripsi Barang</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><img src="/img/product/semen.png" alt=""></td>
+                        <td>Semen Gresik</td>
+                        <td>Semen Gresik merupakan semen yang berasal dari Gresik dengan kualitas yang bagus</td>
+                    </tr>
+                    <tr>
+                        <td><img src="/img/product/batu-bata.jpg" alt=""></td>
+                        <td>Batu Bata Merah</td>
+                        <td>Batu Bata Merah merupakan bata yang paling cocok untuk bahan pembangunan rumah maupun renovasi rumah karena struktur yang kokoh</td>
+                    </tr>
+                    <tr>
+                        <td><img src="/img/product/nippon-paint.jpg" alt=""></td>
+                        <td>Nippon Paint</td>
+                        <td>Nippon Paint merupakan merk cat yang terkenal dengan kualitas proteksinya yang bagus</td>
+                    </tr>
+                    <tbody>
+                </table>  
+            </div>
+        </div>
+        <div class="form-container">
+            <div class="form-container-head">
+                <h2>Masukkan Orderan</h2>
+            </div>
+            <div class="form-container-input" align="center">
+                <form action="/php/order.php" method="post" name="order-form">
+                    <table width="20%" border="0" align="center">
+                        <tr>
+                            <td>Nama Lengkap</td>
+                            <td><input name="nama" type="text" id="nama"></td>
+                        </tr>
+    
+                        <tr>
+                            <td>Alamat</td>
+                            <td><input name="alamat" type="text" id="alamat"></td>
+                        </tr>
+    
+                        <tr>
+                            <td>No Telp.</td>
+                            <td><input name="kontak" type="text" id="kontak"></td> </tr>
+                        </tr>
+    
+                        <tr>
+                            <td>Pilih Barang</td>
+                            <td><select name="barang" id="barang">
+                            <option>Semen Gresik</option>
+                            <option>Bata Merah</option>
+                            <option>Nippon Paint</option>
+                            </select></td>
+                        </tr>
+    
+                        <tr>
+                            <td>Catatan</td>
+                            <td><textarea name="catatan" id="catatan"></textarea></td> </textarea>
+                            </tr>
+    
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td><input type="submit" name="Submit" value="Kirim"><input type="reset" name="Submit2" value="Batal">
+                                </td>
+                            </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </div>
+</body>
+</html>
